@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure DevTest Labs
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,9 +22,9 @@ apis:
   tags: Labs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoftdevtestlablabs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoft-devtestlablabs-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoftdevtestlablabs-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoft-devtestlablabs-get-openapi.md
 - name: Azure DevTest Labs API Global Schedules List By Subscription
   x-api-slug: azure-devtest-labs-api
   description: List schedules in a subscription.
@@ -34,9 +34,9 @@ apis:
   tags: Global Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoftdevtestlabschedules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoft-devtestlabschedules-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoftdevtestlabschedules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidprovidersmicrosoft-devtestlabschedules-get-openapi.md
 - name: Azure DevTest Labs API Labs List By Resource Group
   x-api-slug: azure-devtest-labs-api
   description: List labs in a resource group.
@@ -46,9 +46,9 @@ apis:
   tags: Labs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabs-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabs-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabs-get-openapi.md
 - name: Azure DevTest Labs API Artifact Sources List
   x-api-slug: azure-devtest-labs-api
   description: List artifact sources in a given lab.
@@ -58,9 +58,9 @@ apis:
   tags: Artifact Sources
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsources-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsources-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsources-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsources-get-openapi.md
 - name: Azure DevTest Labs API Arm Templates List
   x-api-slug: azure-devtest-labs-api
   description: List azure resource manager templates in a given artifact source.
@@ -70,9 +70,9 @@ apis:
   tags: ARM Templates
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenamearmtemplates-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenamearmtemplates-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenamearmtemplates-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenamearmtemplates-get-openapi.md
 - name: Azure DevTest Labs API Arm Templates Get
   x-api-slug: azure-devtest-labs-api
   description: Get azure resource manager template.
@@ -82,9 +82,9 @@ apis:
   tags: ARM Templates
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenamearmtemplatesname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenamearmtemplatesname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenamearmtemplatesname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenamearmtemplatesname-get-openapi.md
 - name: Azure DevTest Labs API Artifacts List
   x-api-slug: azure-devtest-labs-api
   description: List artifacts in a given artifact source.
@@ -94,9 +94,9 @@ apis:
   tags: Artifacts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenameartifacts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenameartifacts-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenameartifacts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenameartifacts-get-openapi.md
 - name: Azure DevTest Labs API Artifacts Get
   x-api-slug: azure-devtest-labs-api
   description: Get artifact.
@@ -106,9 +106,9 @@ apis:
   tags: Artifacts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenameartifactsname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenameartifactsname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenameartifactsname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenameartifactsname-get-openapi.md
 - name: Azure DevTest Labs API Artifacts Generate Arm Template
   x-api-slug: azure-devtest-labs-api
   description: Generates an ARM template for the given artifact, uploads the required
@@ -119,7 +119,7 @@ apis:
   tags: Artifacts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenameartifactsnamegeneratearmtemplate-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenameartifactsnamegeneratearmtemplate-post-openapi.md
 - name: Azure DevTest Labs API Artifact Sources Get
   x-api-slug: azure-devtest-labs-api
   description: Get artifact source.
@@ -129,9 +129,9 @@ apis:
   tags: Artifact Sources
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-get-openapi.md
 - name: Azure DevTest Labs API Artifact Sources Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing artifact source.
@@ -141,7 +141,7 @@ apis:
   tags: Artifact Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-put-openapi.md
 - name: Azure DevTest Labs API Artifact Sources Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete artifact source.
@@ -151,9 +151,9 @@ apis:
   tags: Artifact Sources
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-delete-openapi.md
 - name: Azure DevTest Labs API Artifact Sources Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of artifact sources.
@@ -163,7 +163,7 @@ apis:
   tags: Artifact Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-patch-openapi.md
 - name: Azure DevTest Labs API Costs Get
   x-api-slug: azure-devtest-labs-api
   description: Get cost.
@@ -173,9 +173,9 @@ apis:
   tags: Costs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecostsname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecostsname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecostsname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecostsname-get-openapi.md
 - name: Azure DevTest Labs API Costs Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing cost.
@@ -185,7 +185,7 @@ apis:
   tags: Costs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecostsname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecostsname-put-openapi.md
 - name: Azure DevTest Labs API Custom Images List
   x-api-slug: azure-devtest-labs-api
   description: List custom images in a given lab.
@@ -195,9 +195,9 @@ apis:
   tags: Custom Images
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimages-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimages-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimages-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimages-get-openapi.md
 - name: Azure DevTest Labs API Custom Images Get
   x-api-slug: azure-devtest-labs-api
   description: Get custom image.
@@ -207,9 +207,9 @@ apis:
   tags: Custom Images
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimagesname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimagesname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimagesname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimagesname-get-openapi.md
 - name: Azure DevTest Labs API Custom Images Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing custom image. This operation can take
@@ -220,7 +220,7 @@ apis:
   tags: Custom Images
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimagesname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimagesname-put-openapi.md
 - name: Azure DevTest Labs API Custom Images Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete custom image. This operation can take a while to complete.
@@ -230,9 +230,9 @@ apis:
   tags: Custom Images
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimagesname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimagesname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimagesname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimagesname-delete-openapi.md
 - name: Azure DevTest Labs API Formulas List
   x-api-slug: azure-devtest-labs-api
   description: List formulas in a given lab.
@@ -242,9 +242,9 @@ apis:
   tags: Formulas
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulas-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulas-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulas-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulas-get-openapi.md
 - name: Azure DevTest Labs API Formulas Get
   x-api-slug: azure-devtest-labs-api
   description: Get formula.
@@ -254,9 +254,9 @@ apis:
   tags: Formulas
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulasname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulasname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulasname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulasname-get-openapi.md
 - name: Azure DevTest Labs API Formulas Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing Formula. This operation can take a while
@@ -267,7 +267,7 @@ apis:
   tags: Formulas
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulasname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulasname-put-openapi.md
 - name: Azure DevTest Labs API Formulas Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete formula.
@@ -277,9 +277,9 @@ apis:
   tags: Formulas
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulasname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulasname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulasname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulasname-delete-openapi.md
 - name: Azure DevTest Labs API Gallery Images List
   x-api-slug: azure-devtest-labs-api
   description: List gallery images in a given lab.
@@ -289,9 +289,9 @@ apis:
   tags: Gallery Images
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamegalleryimages-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamegalleryimages-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamegalleryimages-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamegalleryimages-get-openapi.md
 - name: Azure DevTest Labs API Notification Channels List
   x-api-slug: azure-devtest-labs-api
   description: List notificationchannels in a given lab.
@@ -301,9 +301,9 @@ apis:
   tags: Notification Channels
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannels-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannels-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannels-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannels-get-openapi.md
 - name: Azure DevTest Labs API Notification Channels Get
   x-api-slug: azure-devtest-labs-api
   description: Get notificationchannel.
@@ -313,9 +313,9 @@ apis:
   tags: Notification Channels
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-get-openapi.md
 - name: Azure DevTest Labs API Notification Channels Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing notificationChannel.
@@ -325,7 +325,7 @@ apis:
   tags: Notification Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-put-openapi.md
 - name: Azure DevTest Labs API Notification Channels Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete notificationchannel.
@@ -335,9 +335,9 @@ apis:
   tags: Notification Channels
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-delete-openapi.md
 - name: Azure DevTest Labs API Notification Channels Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of notificationchannels.
@@ -347,7 +347,7 @@ apis:
   tags: Notification Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-patch-openapi.md
 - name: Azure DevTest Labs API Notification Channels Notify
   x-api-slug: azure-devtest-labs-api
   description: Send notification to provided channel.
@@ -357,7 +357,7 @@ apis:
   tags: Notification Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsnamenotify-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsnamenotify-post-openapi.md
 - name: Azure DevTest Labs API Policy Sets Evaluate Policies
   x-api-slug: azure-devtest-labs-api
   description: Evaluates lab policy.
@@ -367,7 +367,7 @@ apis:
   tags: Policies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetsnameevaluatepolicies-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetsnameevaluatepolicies-post-openapi.md
 - name: Azure DevTest Labs API Policies List
   x-api-slug: azure-devtest-labs-api
   description: List policies in a given policy set.
@@ -377,9 +377,9 @@ apis:
   tags: Policies
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepolicies-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepolicies-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepolicies-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepolicies-get-openapi.md
 - name: Azure DevTest Labs API Policies Get
   x-api-slug: azure-devtest-labs-api
   description: Get policy.
@@ -389,9 +389,9 @@ apis:
   tags: Policies
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-get-openapi.md
 - name: Azure DevTest Labs API Policies Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing policy.
@@ -401,7 +401,7 @@ apis:
   tags: Policies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-put-openapi.md
 - name: Azure DevTest Labs API Policies Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete policy.
@@ -411,9 +411,9 @@ apis:
   tags: Policies
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-delete-openapi.md
 - name: Azure DevTest Labs API Policies Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of policies.
@@ -423,7 +423,7 @@ apis:
   tags: Policies
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-patch-openapi.md
 - name: Azure DevTest Labs API Schedules List
   x-api-slug: azure-devtest-labs-api
   description: List schedules in a given lab.
@@ -433,9 +433,9 @@ apis:
   tags: Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedules-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedules-get-openapi.md
 - name: Azure DevTest Labs API Schedules Get
   x-api-slug: azure-devtest-labs-api
   description: Get schedule.
@@ -445,9 +445,9 @@ apis:
   tags: Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-get-openapi.md
 - name: Azure DevTest Labs API Schedules Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing schedule.
@@ -457,7 +457,7 @@ apis:
   tags: Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-put-openapi.md
 - name: Azure DevTest Labs API Schedules Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete schedule.
@@ -467,9 +467,9 @@ apis:
   tags: Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-delete-openapi.md
 - name: Azure DevTest Labs API Schedules Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of schedules.
@@ -479,7 +479,7 @@ apis:
   tags: Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-patch-openapi.md
 - name: Azure DevTest Labs API Schedules Execute
   x-api-slug: azure-devtest-labs-api
   description: Execute a schedule. This operation can take a while to complete.
@@ -489,9 +489,9 @@ apis:
   tags: Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesnameexecute-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesnameexecute-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesnameexecute-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesnameexecute-post-openapi.md
 - name: Azure DevTest Labs API Schedules List Applicable
   x-api-slug: azure-devtest-labs-api
   description: Lists all applicable schedules
@@ -501,9 +501,9 @@ apis:
   tags: Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesnamelistapplicable-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesnamelistapplicable-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesnamelistapplicable-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesnamelistapplicable-post-openapi.md
 - name: Azure DevTest Labs API Service Runners List
   x-api-slug: azure-devtest-labs-api
   description: List service runners in a given lab.
@@ -513,7 +513,7 @@ apis:
   tags: Service Runners
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameservicerunners-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameservicerunners-get-openapi.md
 - name: Azure DevTest Labs API Service Runners Get
   x-api-slug: azure-devtest-labs-api
   description: Get service runner.
@@ -523,7 +523,7 @@ apis:
   tags: Service Runners
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameservicerunnersname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameservicerunnersname-get-openapi.md
 - name: Azure DevTest Labs API Service Runners Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing Service runner.
@@ -533,7 +533,7 @@ apis:
   tags: Service Runners
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameservicerunnersname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameservicerunnersname-put-openapi.md
 - name: Azure DevTest Labs API Service Runners Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete service runner.
@@ -543,7 +543,7 @@ apis:
   tags: Service Runners
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameservicerunnersname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameservicerunnersname-delete-openapi.md
 - name: Azure DevTest Labs API Users List
   x-api-slug: azure-devtest-labs-api
   description: List user profiles in a given lab.
@@ -553,9 +553,9 @@ apis:
   tags: Users
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusers-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusers-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusers-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusers-get-openapi.md
 - name: Azure DevTest Labs API Users Get
   x-api-slug: azure-devtest-labs-api
   description: Get user profile.
@@ -565,9 +565,9 @@ apis:
   tags: Users
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-get-openapi.md
 - name: Azure DevTest Labs API Users Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing user profile.
@@ -577,7 +577,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-put-openapi.md
 - name: Azure DevTest Labs API Users Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete user profile. This operation can take a while to complete.
@@ -587,9 +587,9 @@ apis:
   tags: Users
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-delete-openapi.md
 - name: Azure DevTest Labs API Users Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of user profiles.
@@ -599,7 +599,7 @@ apis:
   tags: Users
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-patch-openapi.md
 - name: Azure DevTest Labs API Disks List
   x-api-slug: azure-devtest-labs-api
   description: List disks in a given user profile.
@@ -609,9 +609,9 @@ apis:
   tags: Disks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisks-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisks-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisks-get-openapi.md
 - name: Azure DevTest Labs API Disks Get
   x-api-slug: azure-devtest-labs-api
   description: Get disk.
@@ -621,9 +621,9 @@ apis:
   tags: Disks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksname-get-openapi.md
 - name: Azure DevTest Labs API Disks Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing disk. This operation can take a while
@@ -634,7 +634,7 @@ apis:
   tags: Disks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksname-put-openapi.md
 - name: Azure DevTest Labs API Disks Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete disk. This operation can take a while to complete.
@@ -644,9 +644,9 @@ apis:
   tags: Disks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksname-delete-openapi.md
 - name: Azure DevTest Labs API Disks Attach
   x-api-slug: azure-devtest-labs-api
   description: Attach and create the lease of the disk to the virtual machine. This
@@ -657,7 +657,7 @@ apis:
   tags: Disks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksnameattach-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksnameattach-post-openapi.md
 - name: Azure DevTest Labs API Disks Detach
   x-api-slug: azure-devtest-labs-api
   description: Detach and break the lease of the disk attached to the virtual machine.
@@ -668,7 +668,7 @@ apis:
   tags: Disks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksnamedetach-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksnamedetach-post-openapi.md
 - name: Azure DevTest Labs API Environments List
   x-api-slug: azure-devtest-labs-api
   description: List environments in a given user profile.
@@ -678,9 +678,9 @@ apis:
   tags: Environments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironments-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironments-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironments-get-openapi.md
 - name: Azure DevTest Labs API Environments Get
   x-api-slug: azure-devtest-labs-api
   description: Get environment.
@@ -690,9 +690,9 @@ apis:
   tags: Environments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironmentsname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironmentsname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironmentsname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironmentsname-get-openapi.md
 - name: Azure DevTest Labs API Environments Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing environment. This operation can take
@@ -703,7 +703,7 @@ apis:
   tags: Environments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironmentsname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironmentsname-put-openapi.md
 - name: Azure DevTest Labs API Environments Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete environment. This operation can take a while to complete.
@@ -713,9 +713,9 @@ apis:
   tags: Environments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironmentsname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironmentsname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironmentsname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironmentsname-delete-openapi.md
 - name: Azure DevTest Labs API Secrets List
   x-api-slug: azure-devtest-labs-api
   description: List secrets in a given user profile.
@@ -725,7 +725,7 @@ apis:
   tags: Secrets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamesecrets-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamesecrets-get-openapi.md
 - name: Azure DevTest Labs API Secrets Get
   x-api-slug: azure-devtest-labs-api
   description: Get secret.
@@ -735,7 +735,7 @@ apis:
   tags: Secrets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamesecretsname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamesecretsname-get-openapi.md
 - name: Azure DevTest Labs API Secrets Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing secret.
@@ -745,7 +745,7 @@ apis:
   tags: Secrets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamesecretsname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamesecretsname-put-openapi.md
 - name: Azure DevTest Labs API Secrets Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete secret.
@@ -755,7 +755,7 @@ apis:
   tags: Secrets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamesecretsname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamesecretsname-delete-openapi.md
 - name: Azure DevTest Labs API Virtual Machines List
   x-api-slug: azure-devtest-labs-api
   description: List virtual machines in a given lab.
@@ -765,7 +765,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachines-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachines-get-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Get
   x-api-slug: azure-devtest-labs-api
   description: Get virtual machine.
@@ -775,7 +775,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesname-get-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing Virtual machine. This operation can take
@@ -786,7 +786,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesname-put-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete virtual machine. This operation can take a while to complete.
@@ -796,7 +796,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesname-delete-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of virtual machines.
@@ -806,7 +806,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesname-patch-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Add Data Disk
   x-api-slug: azure-devtest-labs-api
   description: Attach a new or existing data disk to virtual machine. This operation
@@ -817,7 +817,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnameadddatadisk-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnameadddatadisk-post-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Apply Artifacts
   x-api-slug: azure-devtest-labs-api
   description: Apply artifacts to virtual machine. This operation can take a while
@@ -828,7 +828,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnameapplyartifacts-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnameapplyartifacts-post-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Claim
   x-api-slug: azure-devtest-labs-api
   description: Take ownership of an existing virtual machine This operation can take
@@ -839,7 +839,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnameclaim-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnameclaim-post-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Detach Data Disk
   x-api-slug: azure-devtest-labs-api
   description: Detach the specified disk from the virtual machine. This operation
@@ -850,7 +850,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnamedetachdatadisk-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnamedetachdatadisk-post-openapi.md
 - name: Azure DevTest Labs API Virtual Machines List Applicable Schedules
   x-api-slug: azure-devtest-labs-api
   description: Lists all applicable schedules
@@ -860,7 +860,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnamelistapplicableschedules-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnamelistapplicableschedules-post-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Start
   x-api-slug: azure-devtest-labs-api
   description: Start a virtual machine. This operation can take a while to complete.
@@ -870,7 +870,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnamestart-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnamestart-post-openapi.md
 - name: Azure DevTest Labs API Virtual Machines Stop
   x-api-slug: azure-devtest-labs-api
   description: Stop a virtual machine This operation can take a while to complete.
@@ -880,7 +880,7 @@ apis:
   tags: Virtual Machines
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnamestop-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnamestop-post-openapi.md
 - name: Azure DevTest Labs API Virtual Machine Schedules List
   x-api-slug: azure-devtest-labs-api
   description: List schedules in a given virtual machine.
@@ -890,9 +890,9 @@ apis:
   tags: Virtual Machine Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedules-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedules-get-openapi.md
 - name: Azure DevTest Labs API Virtual Machine Schedules Get
   x-api-slug: azure-devtest-labs-api
   description: Get schedule.
@@ -902,9 +902,9 @@ apis:
   tags: Virtual Machine Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-get-openapi.md
 - name: Azure DevTest Labs API Virtual Machine Schedules Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing schedule.
@@ -914,7 +914,7 @@ apis:
   tags: Virtual Machine Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-put-openapi.md
 - name: Azure DevTest Labs API Virtual Machine Schedules Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete schedule.
@@ -924,9 +924,9 @@ apis:
   tags: Virtual Machine Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-delete-openapi.md
 - name: Azure DevTest Labs API Virtual Machine Schedules Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of schedules.
@@ -936,7 +936,7 @@ apis:
   tags: Virtual Machine Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-patch-openapi.md
 - name: Azure DevTest Labs API Virtual Machine Schedules Execute
   x-api-slug: azure-devtest-labs-api
   description: Execute a schedule. This operation can take a while to complete.
@@ -946,9 +946,9 @@ apis:
   tags: Virtual Machine Schedules Execute
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesnameexecute-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesnameexecute-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesnameexecute-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesnameexecute-post-openapi.md
 - name: Azure DevTest Labs API Virtual Networks List
   x-api-slug: azure-devtest-labs-api
   description: List virtual networks in a given lab.
@@ -958,9 +958,9 @@ apis:
   tags: Virtual Networks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworks-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworks-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworks-get-openapi.md
 - name: Azure DevTest Labs API Virtual Networks Get
   x-api-slug: azure-devtest-labs-api
   description: Get virtual network.
@@ -970,9 +970,9 @@ apis:
   tags: Virtual Networks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-get-openapi.md
 - name: Azure DevTest Labs API Virtual Networks Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing virtual network. This operation can take
@@ -983,7 +983,7 @@ apis:
   tags: Virtual Networks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-put-openapi.md
 - name: Azure DevTest Labs API Virtual Networks Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete virtual network. This operation can take a while to complete.
@@ -993,9 +993,9 @@ apis:
   tags: Virtual Networks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-delete-openapi.md
 - name: Azure DevTest Labs API Virtual Networks Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of virtual networks.
@@ -1005,7 +1005,7 @@ apis:
   tags: Virtual Networks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-patch-openapi.md
 - name: Azure DevTest Labs API Labs Get
   x-api-slug: azure-devtest-labs-api
   description: Get lab.
@@ -1015,9 +1015,9 @@ apis:
   tags: Labs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-get-openapi.md
 - name: Azure DevTest Labs API Labs Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing lab. This operation can take a while
@@ -1028,7 +1028,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-put-openapi.md
 - name: Azure DevTest Labs API Labs Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete lab. This operation can take a while to complete.
@@ -1038,7 +1038,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-delete-openapi.md
 - name: Azure DevTest Labs API Labs Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of labs.
@@ -1048,7 +1048,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-patch-openapi.md
 - name: Azure DevTest Labs API Labs Claim Any Vm
   x-api-slug: azure-devtest-labs-api
   description: Claim a random claimable virtual machine in the lab. This operation
@@ -1059,7 +1059,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnameclaimanyvm-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnameclaimanyvm-post-openapi.md
 - name: Azure DevTest Labs API Labs Create Environment
   x-api-slug: azure-devtest-labs-api
   description: Create virtual machines in a lab. This operation can take a while to
@@ -1070,7 +1070,7 @@ apis:
   tags: Labs Environment
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnamecreateenvironment-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamecreateenvironment-post-openapi.md
 - name: Azure DevTest Labs API Labs Export Resource Usage
   x-api-slug: azure-devtest-labs-api
   description: Exports the lab resource usage into a storage account This operation
@@ -1081,7 +1081,7 @@ apis:
   tags: Labs Export
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnameexportresourceusage-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnameexportresourceusage-post-openapi.md
 - name: Azure DevTest Labs API Labs Generate Upload Uri
   x-api-slug: azure-devtest-labs-api
   description: Generate a URI for uploading custom disk images to a Lab.
@@ -1091,7 +1091,7 @@ apis:
   tags: Labs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnamegenerateuploaduri-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamegenerateuploaduri-post-openapi.md
 - name: Azure DevTest Labs API Labs List Vhds
   x-api-slug: azure-devtest-labs-api
   description: List disk images available for custom image creation.
@@ -1101,7 +1101,7 @@ apis:
   tags: Labs Vhds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnamelistvhds-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamelistvhds-post-openapi.md
 - name: Azure DevTest Labs API Global Schedules List By Resource Group
   x-api-slug: azure-devtest-labs-api
   description: List schedules in a resource group.
@@ -1111,9 +1111,9 @@ apis:
   tags: Global Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedules-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedules-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedules-get-openapi.md
 - name: Azure DevTest Labs API Global Schedules Get
   x-api-slug: azure-devtest-labs-api
   description: Get schedule.
@@ -1123,9 +1123,9 @@ apis:
   tags: Global Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-get-openapi.md
 - name: Azure DevTest Labs API Global Schedules Create Or Update
   x-api-slug: azure-devtest-labs-api
   description: Create or replace an existing schedule.
@@ -1135,7 +1135,7 @@ apis:
   tags: Global Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-put-openapi.md
 - name: Azure DevTest Labs API Global Schedules Delete
   x-api-slug: azure-devtest-labs-api
   description: Delete schedule.
@@ -1145,9 +1145,9 @@ apis:
   tags: Global Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-delete-openapi.md
 - name: Azure DevTest Labs API Global Schedules Update
   x-api-slug: azure-devtest-labs-api
   description: Modify properties of schedules.
@@ -1157,7 +1157,7 @@ apis:
   tags: Global Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-patch-openapi.md
 - name: Azure DevTest Labs API Global Schedules Execute
   x-api-slug: azure-devtest-labs-api
   description: Execute a schedule. This operation can take a while to complete.
@@ -1167,9 +1167,9 @@ apis:
   tags: Global Schedules
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesnameexecute-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesnameexecute-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesnameexecute-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesnameexecute-post-openapi.md
 - name: Azure DevTest Labs API Global Schedules Retarget
   x-api-slug: azure-devtest-labs-api
   description: Updates a schedule's target resource Id. This operation can take a
@@ -1180,7 +1180,7 @@ apis:
   tags: Global Schedules
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesnameretarget-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesnameretarget-post-openapi.md
 - name: Azure DevTest Labs API
   x-api-slug: azure-devtest-labs-api
   description: Azure DevTest Labs makes it easy to quickly create environments to

@@ -4,7 +4,7 @@ x-collection-name: Azure DevTest Labs
 x-complete: 1
 info:
   title: DevTestLabsClient
-  description: the-devtest-labs-client
+  description: the-devtest-labs-client-
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -20,7 +20,7 @@ paths:
       summary: Labs List By Subscription
       description: List labs in a subscription.
       operationId: Labs_ListBySubscription
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftdevtestlablabs-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-devtestlablabs-get
       parameters:
       - in: query
         name: $expand
@@ -46,7 +46,7 @@ paths:
       summary: Global Schedules List By Subscription
       description: List schedules in a subscription.
       operationId: GlobalSchedules_ListBySubscription
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftdevtestlabschedules-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-devtestlabschedules-get
       parameters:
       - in: query
         name: $expand
@@ -72,7 +72,7 @@ paths:
       summary: Labs List By Resource Group
       description: List labs in a resource group.
       operationId: Labs_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabs-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabs-get
       parameters:
       - in: query
         name: $expand
@@ -98,7 +98,7 @@ paths:
       summary: Artifact Sources List
       description: List artifact sources in a given lab.
       operationId: ArtifactSources_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsources-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsources-get
       parameters:
       - in: query
         name: $expand
@@ -127,7 +127,7 @@ paths:
       summary: Arm Templates List
       description: List azure resource manager templates in a given artifact source.
       operationId: ArmTemplates_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenamearmtemplates-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenamearmtemplates-get
       parameters:
       - in: query
         name: $expand
@@ -159,7 +159,7 @@ paths:
       summary: Arm Templates Get
       description: Get azure resource manager template.
       operationId: ArmTemplates_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenamearmtemplatesname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenamearmtemplatesname-get
       parameters:
       - in: query
         name: $expand
@@ -185,7 +185,7 @@ paths:
       summary: Artifacts List
       description: List artifacts in a given artifact source.
       operationId: Artifacts_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenameartifacts-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenameartifacts-get
       parameters:
       - in: query
         name: $expand
@@ -217,7 +217,7 @@ paths:
       summary: Artifacts Get
       description: Get artifact.
       operationId: Artifacts_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenameartifactsname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenameartifactsname-get
       parameters:
       - in: query
         name: $expand
@@ -244,7 +244,7 @@ paths:
       description: Generates an ARM template for the given artifact, uploads the required
         files to a storage account, and validates the generated artifact.
       operationId: Artifacts_GenerateArmTemplate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesartifactsourcenameartifactsnamegeneratearmtemplate-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesartifactsourcenameartifactsnamegeneratearmtemplate-post
       parameters:
       - in: path
         name: artifactSourceName
@@ -272,7 +272,7 @@ paths:
       summary: Artifact Sources Get
       description: Get artifact source.
       operationId: ArtifactSources_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-get
       parameters:
       - in: query
         name: $expand
@@ -294,7 +294,7 @@ paths:
       summary: Artifact Sources Create Or Update
       description: Create or replace an existing artifact source.
       operationId: ArtifactSources_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-put
       parameters:
       - in: body
         name: artifactSource
@@ -318,7 +318,7 @@ paths:
       summary: Artifact Sources Delete
       description: Delete artifact source.
       operationId: ArtifactSources_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-delete
       parameters:
       - in: path
         name: labName
@@ -337,7 +337,7 @@ paths:
       summary: Artifact Sources Update
       description: Modify properties of artifact sources.
       operationId: ArtifactSources_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameartifactsourcesname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameartifactsourcesname-patch
       parameters:
       - in: body
         name: artifactSource
@@ -362,7 +362,7 @@ paths:
       summary: Costs Get
       description: Get cost.
       operationId: Costs_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecostsname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecostsname-get
       parameters:
       - in: query
         name: $expand
@@ -384,7 +384,7 @@ paths:
       summary: Costs Create Or Update
       description: Create or replace an existing cost.
       operationId: Costs_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecostsname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecostsname-put
       parameters:
       - in: body
         name: labCost
@@ -409,7 +409,7 @@ paths:
       summary: Custom Images List
       description: List custom images in a given lab.
       operationId: CustomImages_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimages-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimages-get
       parameters:
       - in: query
         name: $expand
@@ -438,7 +438,7 @@ paths:
       summary: Custom Images Get
       description: Get custom image.
       operationId: CustomImages_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimagesname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimagesname-get
       parameters:
       - in: query
         name: $expand
@@ -461,7 +461,7 @@ paths:
       description: Create or replace an existing custom image. This operation can
         take a while to complete.
       operationId: CustomImages_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimagesname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimagesname-put
       parameters:
       - in: body
         name: customImage
@@ -485,7 +485,7 @@ paths:
       summary: Custom Images Delete
       description: Delete custom image. This operation can take a while to complete.
       operationId: CustomImages_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamecustomimagesname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamecustomimagesname-delete
       parameters:
       - in: path
         name: labName
@@ -505,7 +505,7 @@ paths:
       summary: Formulas List
       description: List formulas in a given lab.
       operationId: Formulas_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulas-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulas-get
       parameters:
       - in: query
         name: $expand
@@ -534,7 +534,7 @@ paths:
       summary: Formulas Get
       description: Get formula.
       operationId: Formulas_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulasname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulasname-get
       parameters:
       - in: query
         name: $expand
@@ -557,7 +557,7 @@ paths:
       description: Create or replace an existing Formula. This operation can take
         a while to complete.
       operationId: Formulas_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulasname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulasname-put
       parameters:
       - in: body
         name: formula
@@ -582,7 +582,7 @@ paths:
       summary: Formulas Delete
       description: Delete formula.
       operationId: Formulas_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameformulasname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameformulasname-delete
       parameters:
       - in: path
         name: labName
@@ -602,7 +602,7 @@ paths:
       summary: Gallery Images List
       description: List gallery images in a given lab.
       operationId: GalleryImages_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamegalleryimages-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamegalleryimages-get
       parameters:
       - in: query
         name: $expand
@@ -631,7 +631,7 @@ paths:
       summary: Notification Channels List
       description: List notificationchannels in a given lab.
       operationId: NotificationChannels_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannels-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannels-get
       parameters:
       - in: query
         name: $expand
@@ -660,7 +660,7 @@ paths:
       summary: Notification Channels Get
       description: Get notificationchannel.
       operationId: NotificationChannels_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-get
       parameters:
       - in: query
         name: $expand
@@ -682,7 +682,7 @@ paths:
       summary: Notification Channels Create Or Update
       description: Create or replace an existing notificationChannel.
       operationId: NotificationChannels_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-put
       parameters:
       - in: path
         name: labName
@@ -706,7 +706,7 @@ paths:
       summary: Notification Channels Delete
       description: Delete notificationchannel.
       operationId: NotificationChannels_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-delete
       parameters:
       - in: path
         name: labName
@@ -725,7 +725,7 @@ paths:
       summary: Notification Channels Update
       description: Modify properties of notificationchannels.
       operationId: NotificationChannels_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-patch
       parameters:
       - in: path
         name: labName
@@ -750,7 +750,7 @@ paths:
       summary: Notification Channels Notify
       description: Send notification to provided channel.
       operationId: NotificationChannels_Notify
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsnamenotify-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsnamenotify-post
       parameters:
       - in: path
         name: labName
@@ -775,7 +775,7 @@ paths:
       summary: Policy Sets Evaluate Policies
       description: Evaluates lab policy.
       operationId: PolicySets_EvaluatePolicies
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetsnameevaluatepolicies-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetsnameevaluatepolicies-post
       parameters:
       - in: body
         name: evaluatePoliciesRequest
@@ -800,7 +800,7 @@ paths:
       summary: Policies List
       description: List policies in a given policy set.
       operationId: Policies_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepolicies-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepolicies-get
       parameters:
       - in: query
         name: $expand
@@ -832,7 +832,7 @@ paths:
       summary: Policies Get
       description: Get policy.
       operationId: Policies_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-get
       parameters:
       - in: query
         name: $expand
@@ -857,7 +857,7 @@ paths:
       summary: Policies Create Or Update
       description: Create or replace an existing policy.
       operationId: Policies_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-put
       parameters:
       - in: path
         name: labName
@@ -884,7 +884,7 @@ paths:
       summary: Policies Delete
       description: Delete policy.
       operationId: Policies_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-delete
       parameters:
       - in: path
         name: labName
@@ -906,7 +906,7 @@ paths:
       summary: Policies Update
       description: Modify properties of policies.
       operationId: Policies_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamepolicysetspolicysetnamepoliciesname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamepolicysetspolicysetnamepoliciesname-patch
       parameters:
       - in: path
         name: labName
@@ -934,7 +934,7 @@ paths:
       summary: Schedules List
       description: List schedules in a given lab.
       operationId: Schedules_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedules-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedules-get
       parameters:
       - in: query
         name: $expand
@@ -963,7 +963,7 @@ paths:
       summary: Schedules Get
       description: Get schedule.
       operationId: Schedules_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-get
       parameters:
       - in: query
         name: $expand
@@ -985,7 +985,7 @@ paths:
       summary: Schedules Create Or Update
       description: Create or replace an existing schedule.
       operationId: Schedules_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-put
       parameters:
       - in: path
         name: labName
@@ -1009,7 +1009,7 @@ paths:
       summary: Schedules Delete
       description: Delete schedule.
       operationId: Schedules_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-delete
       parameters:
       - in: path
         name: labName
@@ -1028,7 +1028,7 @@ paths:
       summary: Schedules Update
       description: Modify properties of schedules.
       operationId: Schedules_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesname-patch
       parameters:
       - in: path
         name: labName
@@ -1053,7 +1053,7 @@ paths:
       summary: Schedules Execute
       description: Execute a schedule. This operation can take a while to complete.
       operationId: Schedules_Execute
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesnameexecute-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesnameexecute-post
       parameters:
       - in: path
         name: labName
@@ -1073,7 +1073,7 @@ paths:
       summary: Schedules List Applicable
       description: Lists all applicable schedules
       operationId: Schedules_ListApplicable
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameschedulesnamelistapplicable-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameschedulesnamelistapplicable-post
       parameters:
       - in: path
         name: labName
@@ -1093,7 +1093,7 @@ paths:
       summary: Service Runners List
       description: List service runners in a given lab.
       operationId: ServiceRunners_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameservicerunners-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameservicerunners-get
       parameters:
       - in: query
         name: $filter
@@ -1119,7 +1119,7 @@ paths:
       summary: Service Runners Get
       description: Get service runner.
       operationId: ServiceRunners_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameservicerunnersname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameservicerunnersname-get
       parameters:
       - in: path
         name: labName
@@ -1138,7 +1138,7 @@ paths:
       summary: Service Runners Create Or Update
       description: Create or replace an existing Service runner.
       operationId: ServiceRunners_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameservicerunnersname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameservicerunnersname-put
       parameters:
       - in: path
         name: labName
@@ -1162,7 +1162,7 @@ paths:
       summary: Service Runners Delete
       description: Delete service runner.
       operationId: ServiceRunners_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameservicerunnersname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameservicerunnersname-delete
       parameters:
       - in: path
         name: labName
@@ -1182,7 +1182,7 @@ paths:
       summary: Users List
       description: List user profiles in a given lab.
       operationId: Users_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusers-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusers-get
       parameters:
       - in: query
         name: $expand
@@ -1211,7 +1211,7 @@ paths:
       summary: Users Get
       description: Get user profile.
       operationId: Users_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-get
       parameters:
       - in: query
         name: $expand
@@ -1233,7 +1233,7 @@ paths:
       summary: Users Create Or Update
       description: Create or replace an existing user profile.
       operationId: Users_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-put
       parameters:
       - in: path
         name: labName
@@ -1257,7 +1257,7 @@ paths:
       summary: Users Delete
       description: Delete user profile. This operation can take a while to complete.
       operationId: Users_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-delete
       parameters:
       - in: path
         name: labName
@@ -1276,7 +1276,7 @@ paths:
       summary: Users Update
       description: Modify properties of user profiles.
       operationId: Users_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersname-patch
       parameters:
       - in: path
         name: labName
@@ -1301,7 +1301,7 @@ paths:
       summary: Disks List
       description: List disks in a given user profile.
       operationId: Disks_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisks-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisks-get
       parameters:
       - in: query
         name: $expand
@@ -1333,7 +1333,7 @@ paths:
       summary: Disks Get
       description: Get disk.
       operationId: Disks_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksname-get
       parameters:
       - in: query
         name: $expand
@@ -1359,7 +1359,7 @@ paths:
       description: Create or replace an existing disk. This operation can take a while
         to complete.
       operationId: Disks_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksname-put
       parameters:
       - in: body
         name: disk
@@ -1386,7 +1386,7 @@ paths:
       summary: Disks Delete
       description: Delete disk. This operation can take a while to complete.
       operationId: Disks_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksname-delete
       parameters:
       - in: path
         name: labName
@@ -1410,7 +1410,7 @@ paths:
       description: Attach and create the lease of the disk to the virtual machine.
         This operation can take a while to complete.
       operationId: Disks_Attach
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksnameattach-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksnameattach-post
       parameters:
       - in: body
         name: attachDiskProperties
@@ -1439,7 +1439,7 @@ paths:
       description: Detach and break the lease of the disk attached to the virtual
         machine. This operation can take a while to complete.
       operationId: Disks_Detach
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamedisksnamedetach-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamedisksnamedetach-post
       parameters:
       - in: body
         name: detachDiskProperties
@@ -1467,7 +1467,7 @@ paths:
       summary: Environments List
       description: List environments in a given user profile.
       operationId: Environments_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironments-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironments-get
       parameters:
       - in: query
         name: $expand
@@ -1499,7 +1499,7 @@ paths:
       summary: Environments Get
       description: Get environment.
       operationId: Environments_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironmentsname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironmentsname-get
       parameters:
       - in: query
         name: $expand
@@ -1525,7 +1525,7 @@ paths:
       description: Create or replace an existing environment. This operation can take
         a while to complete.
       operationId: Environments_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironmentsname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironmentsname-put
       parameters:
       - in: body
         name: dtlEnvironment
@@ -1552,7 +1552,7 @@ paths:
       summary: Environments Delete
       description: Delete environment. This operation can take a while to complete.
       operationId: Environments_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernameenvironmentsname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernameenvironmentsname-delete
       parameters:
       - in: path
         name: labName
@@ -1575,7 +1575,7 @@ paths:
       summary: Secrets List
       description: List secrets in a given user profile.
       operationId: Secrets_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamesecrets-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamesecrets-get
       parameters:
       - in: query
         name: $expand
@@ -1607,7 +1607,7 @@ paths:
       summary: Secrets Get
       description: Get secret.
       operationId: Secrets_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamesecretsname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamesecretsname-get
       parameters:
       - in: query
         name: $expand
@@ -1632,7 +1632,7 @@ paths:
       summary: Secrets Create Or Update
       description: Create or replace an existing secret.
       operationId: Secrets_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamesecretsname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamesecretsname-put
       parameters:
       - in: path
         name: labName
@@ -1659,7 +1659,7 @@ paths:
       summary: Secrets Delete
       description: Delete secret.
       operationId: Secrets_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnameusersusernamesecretsname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnameusersusernamesecretsname-delete
       parameters:
       - in: path
         name: labName
@@ -1682,7 +1682,7 @@ paths:
       summary: Virtual Machines List
       description: List virtual machines in a given lab.
       operationId: VirtualMachines_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachines-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachines-get
       parameters:
       - in: query
         name: $expand
@@ -1711,7 +1711,7 @@ paths:
       summary: Virtual Machines Get
       description: Get virtual machine.
       operationId: VirtualMachines_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesname-get
       parameters:
       - in: query
         name: $expand
@@ -1734,7 +1734,7 @@ paths:
       description: Create or replace an existing Virtual machine. This operation can
         take a while to complete.
       operationId: VirtualMachines_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesname-put
       parameters:
       - in: path
         name: labName
@@ -1758,7 +1758,7 @@ paths:
       summary: Virtual Machines Delete
       description: Delete virtual machine. This operation can take a while to complete.
       operationId: VirtualMachines_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesname-delete
       parameters:
       - in: path
         name: labName
@@ -1777,7 +1777,7 @@ paths:
       summary: Virtual Machines Update
       description: Modify properties of virtual machines.
       operationId: VirtualMachines_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesname-patch
       parameters:
       - in: path
         name: labName
@@ -1803,7 +1803,7 @@ paths:
       description: Attach a new or existing data disk to virtual machine. This operation
         can take a while to complete.
       operationId: VirtualMachines_AddDataDisk
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnameadddatadisk-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnameadddatadisk-post
       parameters:
       - in: body
         name: dataDiskProperties
@@ -1830,7 +1830,7 @@ paths:
       description: Apply artifacts to virtual machine. This operation can take a while
         to complete.
       operationId: VirtualMachines_ApplyArtifacts
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnameapplyartifacts-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnameapplyartifacts-post
       parameters:
       - in: body
         name: applyArtifactsRequest
@@ -1856,7 +1856,7 @@ paths:
       description: Take ownership of an existing virtual machine This operation can
         take a while to complete.
       operationId: VirtualMachines_Claim
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnameclaim-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnameclaim-post
       parameters:
       - in: path
         name: labName
@@ -1877,7 +1877,7 @@ paths:
       description: Detach the specified disk from the virtual machine. This operation
         can take a while to complete.
       operationId: VirtualMachines_DetachDataDisk
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnamedetachdatadisk-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnamedetachdatadisk-post
       parameters:
       - in: body
         name: detachDataDiskProperties
@@ -1902,7 +1902,7 @@ paths:
       summary: Virtual Machines List Applicable Schedules
       description: Lists all applicable schedules
       operationId: VirtualMachines_ListApplicableSchedules
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnamelistapplicableschedules-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnamelistapplicableschedules-post
       parameters:
       - in: path
         name: labName
@@ -1922,7 +1922,7 @@ paths:
       summary: Virtual Machines Start
       description: Start a virtual machine. This operation can take a while to complete.
       operationId: VirtualMachines_Start
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnamestart-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnamestart-post
       parameters:
       - in: path
         name: labName
@@ -1942,7 +1942,7 @@ paths:
       summary: Virtual Machines Stop
       description: Stop a virtual machine This operation can take a while to complete.
       operationId: VirtualMachines_Stop
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesnamestop-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesnamestop-post
       parameters:
       - in: path
         name: labName
@@ -1962,7 +1962,7 @@ paths:
       summary: Virtual Machine Schedules List
       description: List schedules in a given virtual machine.
       operationId: VirtualMachineSchedules_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedules-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedules-get
       parameters:
       - in: query
         name: $expand
@@ -1994,7 +1994,7 @@ paths:
       summary: Virtual Machine Schedules Get
       description: Get schedule.
       operationId: VirtualMachineSchedules_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-get
       parameters:
       - in: query
         name: $expand
@@ -2019,7 +2019,7 @@ paths:
       summary: Virtual Machine Schedules Create Or Update
       description: Create or replace an existing schedule.
       operationId: VirtualMachineSchedules_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-put
       parameters:
       - in: path
         name: labName
@@ -2046,7 +2046,7 @@ paths:
       summary: Virtual Machine Schedules Delete
       description: Delete schedule.
       operationId: VirtualMachineSchedules_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-delete
       parameters:
       - in: path
         name: labName
@@ -2068,7 +2068,7 @@ paths:
       summary: Virtual Machine Schedules Update
       description: Modify properties of schedules.
       operationId: VirtualMachineSchedules_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesname-patch
       parameters:
       - in: path
         name: labName
@@ -2096,7 +2096,7 @@ paths:
       summary: Virtual Machine Schedules Execute
       description: Execute a schedule. This operation can take a while to complete.
       operationId: VirtualMachineSchedules_Execute
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesnameexecute-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualmachinesvirtualmachinenameschedulesnameexecute-post
       parameters:
       - in: path
         name: labName
@@ -2119,7 +2119,7 @@ paths:
       summary: Virtual Networks List
       description: List virtual networks in a given lab.
       operationId: VirtualNetworks_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworks-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworks-get
       parameters:
       - in: query
         name: $expand
@@ -2148,7 +2148,7 @@ paths:
       summary: Virtual Networks Get
       description: Get virtual network.
       operationId: VirtualNetworks_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-get
       parameters:
       - in: query
         name: $expand
@@ -2171,7 +2171,7 @@ paths:
       description: Create or replace an existing virtual network. This operation can
         take a while to complete.
       operationId: VirtualNetworks_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-put
       parameters:
       - in: path
         name: labName
@@ -2195,7 +2195,7 @@ paths:
       summary: Virtual Networks Delete
       description: Delete virtual network. This operation can take a while to complete.
       operationId: VirtualNetworks_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-delete
       parameters:
       - in: path
         name: labName
@@ -2214,7 +2214,7 @@ paths:
       summary: Virtual Networks Update
       description: Modify properties of virtual networks.
       operationId: VirtualNetworks_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamevirtualnetworksname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamevirtualnetworksname-patch
       parameters:
       - in: path
         name: labName
@@ -2239,7 +2239,7 @@ paths:
       summary: Labs Get
       description: Get lab.
       operationId: Labs_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-get
       parameters:
       - in: query
         name: $expand
@@ -2259,7 +2259,7 @@ paths:
       description: Create or replace an existing lab. This operation can take a while
         to complete.
       operationId: Labs_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-put
       parameters:
       - in: body
         name: lab
@@ -2280,7 +2280,7 @@ paths:
       summary: Labs Delete
       description: Delete lab. This operation can take a while to complete.
       operationId: Labs_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-delete
       parameters:
       - in: path
         name: name
@@ -2296,7 +2296,7 @@ paths:
       summary: Labs Update
       description: Modify properties of labs.
       operationId: Labs_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsname-patch
       parameters:
       - in: body
         name: lab
@@ -2319,7 +2319,7 @@ paths:
       description: Claim a random claimable virtual machine in the lab. This operation
         can take a while to complete.
       operationId: Labs_ClaimAnyVm
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnameclaimanyvm-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnameclaimanyvm-post
       parameters:
       - in: path
         name: name
@@ -2337,7 +2337,7 @@ paths:
       description: Create virtual machines in a lab. This operation can take a while
         to complete.
       operationId: Labs_CreateEnvironment
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnamecreateenvironment-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamecreateenvironment-post
       parameters:
       - in: body
         name: labVirtualMachineCreationParameter
@@ -2360,7 +2360,7 @@ paths:
       description: Exports the lab resource usage into a storage account This operation
         can take a while to complete.
       operationId: Labs_ExportResourceUsage
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnameexportresourceusage-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnameexportresourceusage-post
       parameters:
       - in: body
         name: exportResourceUsageParameters
@@ -2382,7 +2382,7 @@ paths:
       summary: Labs Generate Upload Uri
       description: Generate a URI for uploading custom disk images to a Lab.
       operationId: Labs_GenerateUploadUri
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnamegenerateuploaduri-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamegenerateuploaduri-post
       parameters:
       - in: body
         name: generateUploadUriParameter
@@ -2404,7 +2404,7 @@ paths:
       summary: Labs List Vhds
       description: List disk images available for custom image creation.
       operationId: Labs_ListVhds
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabsnamelistvhds-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabsnamelistvhds-post
       parameters:
       - in: path
         name: name
@@ -2421,7 +2421,7 @@ paths:
       summary: Global Schedules List By Resource Group
       description: List schedules in a resource group.
       operationId: GlobalSchedules_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedules-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedules-get
       parameters:
       - in: query
         name: $expand
@@ -2447,7 +2447,7 @@ paths:
       summary: Global Schedules Get
       description: Get schedule.
       operationId: GlobalSchedules_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-get
       parameters:
       - in: query
         name: $expand
@@ -2466,7 +2466,7 @@ paths:
       summary: Global Schedules Create Or Update
       description: Create or replace an existing schedule.
       operationId: GlobalSchedules_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-put
       parameters:
       - in: path
         name: name
@@ -2487,7 +2487,7 @@ paths:
       summary: Global Schedules Delete
       description: Delete schedule.
       operationId: GlobalSchedules_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-delete
       parameters:
       - in: path
         name: name
@@ -2503,7 +2503,7 @@ paths:
       summary: Global Schedules Update
       description: Modify properties of schedules.
       operationId: GlobalSchedules_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesname-patch
       parameters:
       - in: path
         name: name
@@ -2525,7 +2525,7 @@ paths:
       summary: Global Schedules Execute
       description: Execute a schedule. This operation can take a while to complete.
       operationId: GlobalSchedules_Execute
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesnameexecute-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesnameexecute-post
       parameters:
       - in: path
         name: name
@@ -2543,7 +2543,7 @@ paths:
       description: Updates a schedule's target resource Id. This operation can take
         a while to complete.
       operationId: GlobalSchedules_Retarget
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlabschedulesnameretarget-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlabschedulesnameretarget-post
       parameters:
       - in: path
         name: name
