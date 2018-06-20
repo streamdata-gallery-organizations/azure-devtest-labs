@@ -6,10 +6,10 @@ description: Azure DevTest Labs makes it easy to quickly create environments to 
   Linux environments while minimalizing waste and controlling costs.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Azure DevTest Labs
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-devtest-labs/master/_listings/azure-devtest-labs/apis.md
 specificationVersion: "0.14"
 apis:
